@@ -5,18 +5,18 @@ using namespace std;
 int main()
 {
 	
-	double rad, height, vol, fvol;		//vol is vol in terms of litres
+	double radius, height, vol, fvol;		//vol is vol in terms of litres
 	const double pi = 3.142;
 
 	cout << "\nEnter the radius of the cylinder\n";
-	cin >> rad;
+	cin >> radius;
 	cout << "Enter the height of the cylinder\n";
 	cin >> height;
 	
-	vol = pi *pow(rad, 2);		//volume of the cylinder in m^3
+	vol = pi *pow(radius, 2);		//volume of the cylinder in m^3
 	fvol = vol * 1000;		//volume of the cylinder in litres
 
-	cout << "the volume of the cylinder" << fvol << "L(" << vol << "m^3)" << endl;
+	cout << "The volume of the cylinder" << fvol << "L(" << vol << "m^3)" <<\n endl;
 	cout << '\n';
 
 	system("pause");
